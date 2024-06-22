@@ -5,8 +5,8 @@ nav {
 
 nav a{
     color: white;
-    display: block; 
-    padding: 20px;
+    display: inline; 
+    padding: 5px;
 
 }
 
