@@ -9,17 +9,18 @@ body {
 }
 
 :root {
---primary-color:#020202;
---second-color: #0d324d;
---accent1-color: #ffffff;
+--primary-color: #020202; 
+--secondary-color: #0d324d; 
+--accent1-color: #ffffff; 
+--accent2-color: #f0f0f0; 
 
---heading-font: 'Open Sans', sans-serif;
---paragraph-font: 'Open Sans', sans-serif;
+--heading-font:  'Open Sans', sans-serif;
+--paragraph-font:  'Open Sans', sans-serif;
 
---nav-background-color: #020202; 
---nav-link-color: #ffffff; 
---hover-link-color: #0d324d; 
---nav-hover-background-color: #0d324d; 
+--nav-background-color: var(--primary-color); 
+--nav-link-color: var(--accent1-color); 
+--nav-hover-link-color: var(--secondary-color); 
+--nav-hover-background-color: var(--secondary-color);
 }
 
 
