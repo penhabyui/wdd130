@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+    font-family: var(--paragraph-font);
+    max-width:960px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+:root {
+--primary-color:#020202;
+--second-color: #0d324d;
+--accent1-color: #ffffff;
+
+--heading-font: 'Open Sans', sans-serif;
+--paragraph-font: 'Open Sans', sans-serif;
+
+--nav-background-color: #020202; 
+    --nav-link-color: #ffffff; 
+    --hover-link-color: #0d324d; 
+    --nav-hover-background-color: #0d324d; 
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding:20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+
+.callout-box {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size:1.2em;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+    color:var(--nav-link-color)
+}
+
+nav a:hover{
+    color:var(--nav-hover-background-color);
+    background-color: var(--nav-hover-background-color);
+}
