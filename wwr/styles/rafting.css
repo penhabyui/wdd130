@@ -92,10 +92,10 @@ body {
 }
 
 header {
-	margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 50% 1fr 2fr ;
+  display: grid;
+  grid-template-columns: 350px auto;
   align-items: center;
+	margin: 1rem auto;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
 }
@@ -108,9 +108,8 @@ header {
 
 nav {
   display: flex;
-  flex-direction:row;
-  align-items: flex-end;
-	text-align: center;
+  justify-content: space-around;
+	text-align:center;
 }
 
 .navigation a {
@@ -118,7 +117,7 @@ nav {
   justify-content: space-between;
   align-items:center;
 	color: hsla(0, 0%, 0%, 0.852);
-	padding: 30px;
+	padding: 50px;
 	text-decoration: none;
   font-family: 'Open Sans', sans-serif;
 }
