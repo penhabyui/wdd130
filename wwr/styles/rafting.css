@@ -113,15 +113,10 @@ nav {
 	text-align: center;
 }
 
-.navigation {
-	display: flex;
-	list-style: none;
-}
-
 .navigation a {
 	display: flex;
   justify-content: space-between;
-  align-items:self-start;
+  align-items:center;
 	color: hsla(0, 0%, 0%, 0.852);
 	padding: 30px;
 	text-decoration: none;
