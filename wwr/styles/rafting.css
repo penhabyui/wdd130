@@ -331,11 +331,10 @@ form label {
 
 }
 
-.form-button {
+button{
     margin: auto;
     padding: .5rem 2rem;
-    background-color: #29323D;
-    color: #FFF;
+    background-color:hsl(205, 71%, 18%); 
     font-weight: 700;
     border-radius: 5px;
 }
