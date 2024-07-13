@@ -331,12 +331,13 @@ form label {
 
 }
 
-button{
+.form-button{
     margin: auto;
     padding: .5rem 2rem;
     background-color:hsl(205, 71%, 18%); 
     font-weight: 700;
     border-radius: 5px;
+    color: #ffffff;
 }
 
 .home-grid {
