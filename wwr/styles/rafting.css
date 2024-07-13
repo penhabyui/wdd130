@@ -63,7 +63,6 @@ h1 {
   font-size: 50px;
   position: absolute;
   top: 100px;
-  background-color:hsla(0, 0%, 0%, 0.356); 
   padding: 10px;
 }
 
@@ -168,4 +167,262 @@ footer {
   width: 30px; 
   height: auto; 
   margin-left: 10px;
+}
+
+.contact-greetings {
+    background-color: #EEE;
+    text-align: center;
+}
+
+.contact-greetings h1{
+  position: relative;
+  color: #000000;
+  top: 5px;
+  font-size: 40px;
+}
+
+.contact-greetings p{
+    padding: 0 20% 3rem;
+}
+
+.headquarters {
+    display: grid;
+    position: relative;
+    grid-template-columns: 50% 50%;
+}
+
+.headquarters h1{
+  font-size: 35px;
+}
+
+iframe {
+    border: none;
+    padding: 1rem;
+    width: -webkit-fill-available;
+}
+
+.adress{
+    margin: .7rem;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.adress h1{
+    color: #000000;
+    padding: 0;
+}
+
+.adress h3{
+    padding-bottom:1rem;
+}
+
+
+i {
+    padding: .3,5rem;
+    border-radius: 2rem;
+    background-color: #EEE;
+    margin: 10px;
+}
+
+.profile {
+    margin: 1rem;
+    display: flex;
+    align-content: center;
+}
+
+.profile img{
+    width: 300px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.employee {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.employees h1{
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  position:relative;
+  top: 10px;
+  left: -10px;
+  font-size: 40px;
+}
+
+.employee-name {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.title {
+    align-self: flex-end;
+    border-bottom: 1px solid #136f63;
+}
+
+form {
+    background-color: #EEE;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 20%;
+}
+
+form h1{
+    color: #000000;
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+    left: 23%;
+    padding: 10px;
+    font-size: 40px;
+}
+
+form p {
+    padding-bottom: 30px;
+    font-size: .7rem;
+    align-self: center;
+}
+
+form label {
+    font-weight: 600;
+    justify-self: start;
+}
+
+.form-item {
+    align-items: center;
+    padding: 10px 0;
+}
+
+.input-radio{
+    margin-left: 20px;
+}
+
+.text-input{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.form-item input{
+    padding: .4rem;
+    border: 2px solid #DDD;
+    border-radius: 5px;
+}
+
+.text-message {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.text-message textarea{
+    width: 100%;
+    border: 2px solid #DDD;
+    border-radius: 5px;
+
+}
+
+.form-button {
+    margin: auto;
+    padding: .5rem 2rem;
+    background-color: #29323D;
+    color: #FFF;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 180px;
+    margin: 25px 0;
+    align-items: center;
+}
+
+.home-discover{
+    display: grid;
+    padding: 10px;
+}
+
+.home-discover a{
+    justify-self: end;
+    padding: 0 10px;
+}
+
+.home-grid h2{
+    padding: 10px;
+    text-align: justify;
+}
+
+.home-grid img{
+    width: 100%;
+    height: 180px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.home-grid p{
+    padding: 10px;
+    text-align: center;
+}
+
+.trips{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.trip-card {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    border:1px solid var(--nav-hover-background-color);
+}
+
+.trip-card img{
+    width: 100%;
+    height: auto;
+
+}
+
+.trip-card h3{
+    padding: 0;
+    text-align: start;
+}
+
+.trip-card div {
+    display: flex;
+    flex-direction: column;;
+    padding: 10px;
+}
+
+.trip-card div p {
+    display: none;
+    padding: 0;
+}
+.trip-card:hover div p {
+    display: block;
+}
+.trip-card button {
+    align-self: flex-end;
+    padding: .2rem 1rem;
+    background-color: #29323D;
+    color: #FFF;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.call{
+    margin: 10px 10px 10px 45%;
+    text-align: center;
+    border: 1px solid var(--nav-link-color)
 }
