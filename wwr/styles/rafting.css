@@ -331,14 +331,23 @@ form label {
 
 }
 
-.form-button{
-    margin: auto;
-    padding: .5rem 2rem;
-    background-color:hsl(205, 71%, 18%); 
-    font-weight: 700;
-    border-radius: 5px;
-    color: #ffffff;
+.form-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:hsl(205, 71%, 18%); 
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
 }
+
+.form-button:hover {
+  background-color:hsl(205, 71%, 18%); ;
+}
+
 
 .home-grid {
     display: grid;
